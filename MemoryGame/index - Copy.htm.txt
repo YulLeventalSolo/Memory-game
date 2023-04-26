@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory game</title>
+    <link rel ="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"> </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <div class="FILPPED">
+                <td> 
+                    <button class="button" onclick="Show_X()">
+                        <img src="img1.jpg" id="x" width="200" height="200" >
+                    </button> 
+                </td>
+            </div>
+             
+            <div class="FILPPED">
+                <td>
+                    <img src="img.jpg"  id ="y" width="200" height="200" onclick="Show_Y()">
+                </td>
+            </div>
+        
+            <div class="FILPPED">
+                <td>
+                    <img src="img5.jpg"  id ="b" width="200" height="200">
+                </td>
+            </div>
+
+            <div class="FILPPED">
+                <td>
+                    <img src="img2.jpg" id="mm" width="200" height="200">
+                </td>
+            </div>
+        </tr>
+
+        <tr>
+            <div class="FILPPED">
+            <td><img src="img2.jpg" id="m" width="200" height="200"></td>
+        </div>
+        <div class="FILPPED">
+            <td> <img src="img3.jpg" id="n" width="200" height="200"></td>
+        </div>
+        <div class="FILPPED">
+            <td> <img src="img4.jpg" id="l" width="200" height="200"></td>
+        </div>
+        <div class="FILPPED">
+            <td> <img src="img4.jpg" id="ll" width="200" height="200"></td>
+        </div>
+        </tr>
+       
+        <tr>
+            <div class="FILPPED">
+            <td>  <img src="img1.jpg" id="a" width="200" height="200"> </td>
+        </div>
+        <div class="FILPPED">
+            <td> <img src="img.jpg"  id ="o" width="200" height="200"></td>
+        </div>
+        <div class="FILPPED">
+            <td><img src="img5.jpg"  id ="p" width="200" height="200"></td>
+        </div>
+        <div class="FILPPED">
+            <td> <img src="img3.jpg" id="nn" width="200" height="200"></td>
+        </div>
+        </tr>
+    </table>
+    <button onclick="handler()">Shuffle</button> 
+
+    <button onclick="hide()">hide</button> 
+</body>
+</html>
